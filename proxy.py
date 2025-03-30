@@ -277,7 +277,7 @@ def handle_attack(message):
         bot.register_next_step_handler(message, process_attack_details)
 
     else:
-        response = "⛔️ 𝗨𝗻𝗮𝘂𝘁𝗼𝗿𝗶𝘀𝗲𝗱 𝗔𝗰𝗰𝗲𝘀𝘀! ⛔️\n\n OWNER :- @Fire_Sanu !"
+        response = "⛔️ 𝗨𝗻𝗮𝘂𝘁𝗼𝗿𝗶𝘀𝗲𝗱 𝗔𝗰𝗰𝗲𝘀𝘀! ⛔️\n\n OWNER :- @UniqueParadox_bot !"
         bot.reply_to(message, response)
 
 def process_attack_details(message):
